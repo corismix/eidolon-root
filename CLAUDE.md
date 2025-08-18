@@ -8,7 +8,7 @@ This is a VS Code theme extension called "Eidolon Root" - a dark theme designed 
 
 ## Key Files and Structure
 
-- `themes/Eidolon Root-color-theme.json` - Main theme definition file containing all color settings for the editor UI and syntax highlighting
+- `themes/eidolon-root-theme.json` - Main theme definition file containing all color settings for the editor UI and syntax highlighting
 - `package.json` - Extension manifest defining the theme contribution and VS Code version requirements
 - `src-theme/root.txt` - Source color palette in a simplified format (appears to be from a terminal color scheme)
 
