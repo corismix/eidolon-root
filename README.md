@@ -1,16 +1,46 @@
-# eidolon-root README
+# Eidolon Root
 
-## Working with Markdown
+**Eidolon Root** is a sleek, dark VS Code theme crafted for clarity and comfort. Its bold contrast and vibrant accents guide your focus effortlessly through code, while subtle pops of color add visual distinction without distraction.
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+## Build & Publish
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+### Prerequisites
+Ensure you have [Node.js](https://nodejs.org/) installed.
 
-## For more information
+### Build (`.vsix`)
+To create a package file (`.vsix`) for manual installation:
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+```bash
+npx vsce package
+```
 
-**Enjoy!**
+## Installation
+
+### Local `.vsix` Installation
+1.  Download the `.vsix` file from the [releases page](https://github.com/corismix/eidolon-root/releases) or build it yourself using the instructions above.
+2.  Open VS Code.
+3.  Go to the Extensions view (`Ctrl+Shift+X` / `Cmd+Shift+X`).
+4.  Click on the `...` (More Actions) menu at the top right of the Extensions sidebar.
+5.  Select `Install from VSIX...`
+6.  Navigate to and select the downloaded `.vsix` file.
+
+## Publish
+
+#### VS Code Marketplace
+1. Create a [Personal Access Token](https://code.visualstudio.com/api/working-with-extensions/publishing-extension#get-a-personal-access-token) (PAT).
+2. Create a publisher: https://marketplace.visualstudio.com/manage
+3. Log in and publish:
+
+```bash
+npx vsce login <publisher id>
+npx vsce publish
+```
+
+#### OpenVSX Registry
+1. Create a token at [open-vsx.org](https://open-vsx.org/user-settings/tokens).
+2. Create a namespace: https://open-vsx.org/user-settings/namespaces
+3. Publish:
+
+```bash
+npx ovsx publish -p <token>
+```

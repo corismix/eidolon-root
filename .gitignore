@@ -29,4 +29,7 @@ Thumbs.db
 *.tmp
 *.temp
 
+.vscode/
 .claude/
+CLAUDE.md
+GEMINI.md
