@@ -1,6 +1,6 @@
 # Eidolon Root
 
-**Eidolon Root** is a sleek, dark VS Code theme crafted for clarity and comfort. Its bold contrast and vibrant accents guide your focus effortlessly through code, while subtle pops of color add visual distinction without distraction.
+A high-contrast dark theme featuring a deep matte background, vibrant pastel syntax highlighting, and a distraction-free UI designed for long coding sessions.
 
 ## Build & Publish
 
