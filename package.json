@@ -2,7 +2,7 @@
   "name": "eidolon-root",
   "displayName": "Eidolon Root",
   "description": "**Eidolon Root** is a sleek, dark VS Code theme crafted for clarity and comfort. Its bold contrast and vibrant accents guide your focus effortlessly through code, while subtle pops of color add visual distinction without distraction. Ideal for long sessions, Eidolon Root keeps your workspace sharp and inviting, blending readability with stylish precision.",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "engines": {
     "vscode": "^1.99.0"
   },
@@ -24,6 +24,7 @@
   "keywords": [],
   "author": "corismix",
   "publisher": "corismix",
+  "icon": "icon.png",
   "license": "ISC",
   "type": "commonjs",
   "repository": {
