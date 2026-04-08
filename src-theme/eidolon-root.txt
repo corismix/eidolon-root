@@ -1,4 +1,4 @@
-palette = 0=#101214
+palette = 0=#1A1D21
 palette = 1=#f56b5c
 palette = 2=#6ddf58
 palette = 3=#f6b34c

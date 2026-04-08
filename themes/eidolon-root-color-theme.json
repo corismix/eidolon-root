@@ -36,7 +36,7 @@
 		"editorBracketHighlight.foreground4": "#5b98ff",
 		"editorBracketHighlight.foreground5": "#83e96c",
 		"editorBracketHighlight.foreground6": "#ff7a6f",
-		"editorBracketHighlight.unexpectedBracket.foreground": "#f56b5c",
+		"editorBracketHighlight.unexpectedBracket.foreground": "#b184e0",
 		// Indent Guides
 		"editorIndentGuide.background1": "#565b6210",
 		"editorIndentGuide.activeBackground1": "#565b6240",

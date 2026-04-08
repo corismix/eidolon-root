@@ -2,6 +2,8 @@
 
 A high-contrast dark theme featuring a deep matte background, vibrant pastel syntax highlighting, and a distraction-free UI designed for long coding sessions.
 
+![Eidolon Root theme](./screenshot.png)
+
 ## Build & Publish
 
 ### Prerequisites
